@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429\cmsis_boot /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429\cmsis_lib\include /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429\cmsis_lib /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11 /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429\Delay /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429\cmsis /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14247c0c1e3">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="14247c0cd72">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14247c0c43e">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14247c0c179">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="14247c0cdee">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f429_439xx.s" lastModified="14247c0b357">
+      </source>
+      <source file="..\..\..\Delay\Delay.h" lastModified="135b0a7f925">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_ltdc.h" lastModified="14247c0ce3c">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\stm32f4xx_it.h" lastModified="1366a937277">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\Delay\Delay.c" lastModified="147ff9e1ddf">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\Delay\Delay.h"/>
+      </source>
+      <source file="..\..\..\stm32f4xx_it.c" lastModified="147ff9d4c61">
+         <include file="..\..\..\stm32f4xx_it.h"/>
+         <include file="..\..\..\Delay\Delay.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="14247c0cdc0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_fmc.c" lastModified="14247c0c171">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_fmc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_fmc.h" lastModified="14247c0cddf">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="14247c0cd9d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="14247c0c149">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_ltdc.c" lastModified="14247c0c19f">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_ltdc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="14247c0b70f">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1426b99bb61">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429\cmsis_boot /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429\cmsis_lib\include /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429\STM32F429IDISCOVERY /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429\cmsis_lib /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11 /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429\Delay /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429\cmsis /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14247c0c1e3">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="14247c0cd72">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma2d.h" lastModified="14247c0cd4a">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma2d.c" lastModified="14247c0c1bf">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma2d.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14247c0c43e">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery_sdram.h" lastModified="1420861853f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14247c0c179">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="14247c0cdee">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery_sdram.c" lastModified="14208618498">
+         <include file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery_sdram.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_fmc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f429_439xx.s" lastModified="14247c0b357">
+      </source>
+      <source file="..\..\..\Delay\Delay.h" lastModified="135b0a7f925">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_ltdc.h" lastModified="14247c0ce3c">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\stm32f4xx_it.h" lastModified="1366a937277">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\Delay\Delay.c" lastModified="147ff9e1ddf">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\Delay\Delay.h"/>
+      </source>
+      <source file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery_lcd.c" lastModified="148054748a3">
+         <include file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery_lcd.h"/>
+         <include file="..\..\..\STM32F429IDISCOVERY\fonts.c"/>
+      </source>
+      <source file="..\..\..\stm32f4xx_it.c" lastModified="147ff9d4c61">
+         <include file="..\..\..\stm32f4xx_it.h"/>
+         <include file="..\..\..\Delay\Delay.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="14247c0cdc0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\STM32F429IDISCOVERY\fonts.c" lastModified="1416f936461">
+         <include file="..\..\..\STM32F429IDISCOVERY\fonts.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="14247c0c450">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_fmc.c" lastModified="14247c0c171">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_fmc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h" lastModified="14247c0cd86">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_fmc.h" lastModified="14247c0cddf">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery.h" lastModified="1420861843e">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="14247c0cd9d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="14247c0c149">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_ltdc.c" lastModified="14247c0c19f">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_ltdc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="14247c0b70f">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1426b99bb61">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429\cmsis_boot /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429\cmsis_lib\include /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429\STM32F429IDISCOVERY /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11 /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429\cmsis_lib /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429\Delay /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429\cmsis /I..\..\..\..\..\Users\Thomas\Dropbox\TKJ Electronics\LIDAR XV-11\XV11_F429">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="14247c0c1e3">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery_ioe.c" lastModified="14208618566">
+         <include file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery_ioe.h"/>
+      </source>
+      <source file="..\..\..\Serial.c" lastModified="1480931763f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\Serial.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="14247c0cd72">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma2d.h" lastModified="14247c0cd4a">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma2d.c" lastModified="14247c0c1bf">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma2d.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="14247c0c43e">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery_sdram.h" lastModified="1420861853f">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="14247c0c179">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="14247c0cdee">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery_sdram.c" lastModified="14208618498">
+         <include file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery_sdram.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_fmc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f429_439xx.s" lastModified="14247c0b357">
+      </source>
+      <source file="..\..\..\Delay\Delay.h" lastModified="135b0a7f925">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_ltdc.h" lastModified="14247c0ce3c">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery_lcd.h" lastModified="148054727e0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery.h"/>
+         <include file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery_sdram.h"/>
+         <include file="..\..\..\STM32F429IDISCOVERY\fonts.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="1416f90723a">
+      </source>
+      <source file="..\..\..\stm32f4xx_it.h" lastModified="1366a937277">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="14247c0c162">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="1416f907246">
+      </source>
+      <source file="..\..\..\Delay\Delay.c" lastModified="147ff9e1ddf">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\Delay\Delay.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="14247c0cdd1">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery_lcd.c" lastModified="148054748a3">
+         <include file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery_lcd.h"/>
+         <include file="..\..\..\STM32F429IDISCOVERY\fonts.c"/>
+      </source>
+      <source file="..\..\..\stm32f4xx_it.c" lastModified="147ff9d4c61">
+         <include file="..\..\..\stm32f4xx_it.h"/>
+         <include file="..\..\..\Delay\Delay.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="14247c0ba31">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\STM32F429IDISCOVERY\fonts.h" lastModified="1416f9367d0">
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="1480dff7494">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="14247c0cdc0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\STM32F429IDISCOVERY\fonts.c" lastModified="1416f936461">
+         <include file="..\..\..\STM32F429IDISCOVERY\fonts.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="14247c0c3eb">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="1480dfe5e68">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="14247c0c450">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="14247c0ce27">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_fmc.c" lastModified="14247c0c171">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_fmc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="148088a4d76">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_ltdc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma2d.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_fmc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h" lastModified="14247c0cd86">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="1480e08050d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\Serial.h"/>
+         <include file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery_lcd.h"/>
+         <include file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery_ioe.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="1416f90724d">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_fmc.h" lastModified="14247c0cddf">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery.h" lastModified="1420861843e">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="14247c0cd9d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="14247c0c149">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_ltdc.c" lastModified="14247c0c19f">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_ltdc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="1416f906e29">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="14247c0b70f">
+      </source>
+      <source file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery_ioe.h" lastModified="1420861873e">
+         <include file="..\..\..\STM32F429IDISCOVERY\stm32f429i_discovery.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1426b99bb61">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\Serial.h" lastModified="147ffd9526c">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\XV11\cmsis /I..\..\..\workspace\XV11\Delay /I..\..\.. /I..\..\..\workspace\XV11 /I..\..\..\workspace\XV11\cmsis_boot /I..\..\..\workspace\XV11\cmsis_lib /I..\..\..\workspace /I..\..\..\workspace\XV11\cmsis_lib\include">
+      <source file="..\..\..\Delay\Delay.h" lastModified="135b0a7f925">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\stm32f4xx_it.h" lastModified="1366a937277">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\Delay\Delay.c" lastModified="147ff9e1ddf">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\Delay\Delay.h"/>
+      </source>
+      <source file="..\..\..\stm32f4xx_it.c" lastModified="147ff9d4c61">
+         <include file="..\..\..\stm32f4xx_it.h"/>
+         <include file="..\..\..\Delay\Delay.h"/>
+      </source>
+   </includePath>
+</dependencies>
